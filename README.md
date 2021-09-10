@@ -10,7 +10,14 @@ As described in our [paper](https://arxiv.org/abs/2105.08645), we make public 3 
 
 Instruction on access Cloud Storage from the command line with python library gsutil is described [here](https://cloud.google.com/storage/docs/gsutil)
 
-### gsutil URI for 6 SciFive models:
+### gsutil URI for pre-trained data:
+
+* **CodeSearchNet**: [gs://cotext/data/pretrain]() 
+* **Github Repos**: [gs://cotext/data/github_repos/sample_content/cleaned]() 
+
+
+
+### gsutil URI for 3 CoTexT models:
 
 Description of each model is descriped in our [paper](https://arxiv.org/abs/2105.08645)
 
