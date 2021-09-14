@@ -31,24 +31,25 @@ Description of each model is descriped in our [paper](https://arxiv.org/abs/2105
 ## Citations
 If you use CoTexT model or our code for publications, please cite: 
 ```
-@article{DBLP:journals/corr/abs-2105-08645,
-  author    = {Long Phan and
-               Hieu Tran and
-               Daniel Le and
-               Hieu Nguyen and
-               James Anibal and
-               Alec Peltekian and
-               Yanfang Ye},
-  title     = {CoTexT: Multi-task Learning with Code-Text Transformer},
-  journal   = {CoRR},
-  volume    = {abs/2105.08645},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2105.08645},
-  archivePrefix = {arXiv},
-  eprint    = {2105.08645},
-  timestamp = {Mon, 31 May 2021 16:16:57 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2105-08645.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{phan-etal-2021-cotext,
+    title = "{C}o{T}ex{T}: Multi-task Learning with Code-Text Transformer",
+    author = "Phan, Long  and
+      Tran, Hieu  and
+      Le, Daniel  and
+      Nguyen, Hieu  and
+      Annibal, James  and
+      Peltekian, Alec  and
+      Ye, Yanfang",
+    booktitle = "Proceedings of the 1st Workshop on Natural Language Processing for Programming (NLP4Prog 2021)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.nlp4prog-1.5",
+    doi = "10.18653/v1/2021.nlp4prog-1.5",
+    pages = "40--47",
+    abstract = "We present CoTexT, a pre-trained, transformer-based encoder-decoder model that learns the representative context between natural language (NL) and programming language (PL). Using self-supervision, CoTexT is pre-trained on large programming language corpora to learn a general understanding of language and code. CoTexT supports downstream NL-PL tasks such as code summarizing/documentation, code generation, defect detection, and code debugging. We train CoTexT on different combinations of available PL corpus including both {``}bimodal{''} and {``}unimodal{''} data. Here, bimodal data is the combination of text and corresponding code snippets, whereas unimodal data is merely code snippets. We first evaluate CoTexT with multi-task learning: we perform Code Summarization on 6 different programming languages and Code Refinement on both small and medium size featured in the CodeXGLUE dataset. We further conduct extensive experiments to investigate CoTexT on other tasks within the CodeXGlue dataset, including Code Generation and Defect Detection. We consistently achieve SOTA results in these tasks, demonstrating the versatility of our models.",
 }
+
 ```
 
